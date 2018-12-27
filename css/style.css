@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+/* css for Parallax */
+.parallax {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+/* css for Parallax */
+
+/* css for Counter */
+.counter-wrapper {
+    background-color: #6E6E6E;
+}
+.title h1 {
+    color: red;
+    font-size: 45px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 50px auto;
+}
+.counter-wrapper {}
+.counter-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.counter-content h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+/* css for Counter */
+.custom_img {
+    width: 400px !important;
+    height: auto;
+}
+
+/* css for Round Slider */
+/* 1st Round Slider */
+.slider_01 .rs-range-color  {
+    background-color: #00FFF5;
+}
+.slider_01 .rs-path-color  {
+    background-color: #382d5f;
+    border-radius: 0;
+}
+.slider_01 .rs-handle  {
+    background-color: #00FFF5;
+}
+.slider_01 .rs-border  {
+    border: 8px solid #382d5f;
+}
+/* 1st Round Slider */
+/* 2nd Round Slider */
+.slider_02 .rs-range-color  {
+    background-color: #ff8d00;
+}
+.slider_02 .rs-handle:after  {
+    background-color: #000000;
+}
+.slider_02 .rs-border  {
+    border-color: #ff8d00;
+}
+/* 2nd Round Slider */
+/* 3rd Round Slider */
+.slider_03 .rs-border  {
+    border-width: 0px;
+}
+.slider_03 .rs-border.rs-outer  {
+    border: 14px solid #aaa;
+}
+.slider_03 .rs-range-color  {
+    background: black;
+}
+.slider_03 .rs-handle  {
+    background: black;
+    margin-left: 0 !important;
+}
+/* 3rd Round Slider */
+/* 4th Round Slider */
+.slider_04 .rs-range-color  {
+    background: radial-gradient(ellipse at bottom, rgba(0, 0, 0, 1) 0%, rgba(48, 7, 36, 1) 34%, rgba(255, 255, 255, 1) 66%, rgba(0, 0, 0, 1) 100%);
+}
+.slider_04 .rs-path-color  {
+    background: radial-gradient(ellipse at bottom, rgba(255, 255, 255, 1) 0%, rgba(169, 173, 174, 1) 34%, rgba(255, 255, 255, 1) 66%, rgba(5, 0, 0, 1) 100%);
+}
+.slider_04 .rs-handle  {
+    background: radial-gradient(ellipse at center, rgba(228, 228, 228, 1) 0%, rgba(179, 179, 179, 1) 34%, rgb(102, 91, 98) 100%);
+}
+.slider_04 .rs-border  {
+    border-color: white;
+}
+/* 4th Round Slider */
+/* css for Round Slider */
